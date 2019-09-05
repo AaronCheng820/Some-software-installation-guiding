@@ -16,3 +16,9 @@ flex -V
 bison -V   
 这样就能看到正确得信息就表示安装成功了！！
 PS：这里得V一定得大写，一开始我以为DOS不分大小写，所以就输入了v，结果没反应，后来尝试大写V，终于出来信息了，好开心阿在windows下安装flex和bison。
+
+
+(另外)安装完毕后执行
+>bison–help
+Usage: bison [OPTION]... FILE
+Generate LALR(1) and GLR parsers.
