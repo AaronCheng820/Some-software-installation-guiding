@@ -49,3 +49,16 @@ bld_ml64.bat
 
 完成后，再次右击zlibvc>>Rebuild，编译成功！
 ![image](https://github.com/AaronCheng820/Some-software-installation-guiding/blob/master/image/555.jpg)
+
+
+这个解决方案中包含6个工程。其中：
+
+(1). zlibvc生成动态链接库zlibwapi.dll和对应的导入库zlibwapi.lib
+
+(2). zlibstat生成静态链接库zlibstat.lib
+
+(3). testzlibdll测试生成的动态链接库zlibwapi.dll
+
+(4). testzlib测试生成的静态链接库zlibstat.lib
+
+最后我们在debug模式下编译整个解决方案。生成的dll和lib文件可在相应的文件夹中找到。
