@@ -21,7 +21,7 @@
 ========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
   或者如图所示
  
-![image](https://github.com/AaronCheng820/Some-software-installation-guiding/blob/master/image/666.png)
+![image](https://github.com/AaronCheng820/Some-software-installation-guiding/blob/master/image/111.png)
  
   
   此时，右键点击zlibvc，在弹出菜单中选择属性(Properties)属性>>生成事件(Build Event)>>预先生成事件(Pre-Build Event)>>命令行(Command Line)中有错误提示所示的命令行。
