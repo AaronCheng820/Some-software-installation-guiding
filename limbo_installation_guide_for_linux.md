@@ -22,6 +22,19 @@ Users need to make sure they are properly installed and the corresponding settin
     make过称中会出现"parser_class_mame" "parser"问题，需要将/home/cheng/my_software/Limbo-master/limbo/parsers目录下所有.yy文件中的"parser_class_name"的
     引号去掉
     
-sudo make install之后需添加limbo安装路径到环境变量至.bashrc(export LIMBO_DIR=*****)
+sudo make install之后需添加limbo安装路径到环境变量至.bashrc(export LIMBO_DIR=*****) 牢记设置完环境变量一定要source ~/.bashrc
+-------------------------------------------------------------------------------------
 
+成功安装完limbo库之后，进行OpenMPL的安装：
+$ git clone https://github.com/limbo018/OpenMPL.git
+$ cd OpenMPL/src/mpl/
+$ make
+
+找到makefile，在-L $(BOOST_DIR)/lib -lboost_system -lboost_timer -lboost_chrono -lboost_iostreams -lz\后边添加-lz。
+
+安装ctags（apt-get install ctags）
+
+make clean之后重新make即可安装成功
+
+使用sh ./run.sh运行即可
 
